@@ -13,11 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^13.13.4",
-    "@types/omit-empty": "^1.0.0",
     "cross-env": "^7.0.2",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.3",
-    "omit-empty": "^1.0.0",
     "ts-node": "^8.9.1",
     "typescript": "^3.8.3"
   }
