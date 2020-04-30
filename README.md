@@ -2,6 +2,8 @@
 
 A command line tool to show your next Battlefield 4 weapon attachment unlocks.
 
+**See also the [web version](https://github.com/cxcorp/bf4-stats-next-unlocks-web)!**
+
 ```
 > npm start
 
