@@ -1,7 +1,6 @@
 const nodeFetch = require("node-fetch");
 const path = require("path");
 const fs = require("fs");
-const { bf4UserId } = require("./config");
 
 module.exports = async (bf4UserId, dataDir, dataFilePath) => {
   const url = `https://battlelog.battlefield.com/bf4/warsawWeaponsPopulateStats/${bf4UserId}/1/unlocks/`;
