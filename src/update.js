@@ -8,7 +8,7 @@ module.exports = async (bf4UserId, dataDir, dataFilePath) => {
   const data = await res.json();
 
   if (fs.existsSync(dataFilePath)) {
-    fs.renameSync(
+    await fs.promises.rename(
       dataFilePath,
       path.join(
         dataDir,
@@ -18,7 +18,7 @@ module.exports = async (bf4UserId, dataDir, dataFilePath) => {
     );
   }
 
-  fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2), {
+  await fs.promises.writeFile(dataFilePath, JSON.stringify(data, null, 2), {
     encoding: "utf8",
   });
 };
