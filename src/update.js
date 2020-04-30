@@ -7,6 +7,9 @@ module.exports = async (bf4UserId, dataDir, dataFilePath) => {
   const res = await nodeFetch(url);
   const data = await res.json();
 
+  // create data dir if doesn't exist
+  await fs.promises.mkdir(dataDir, { recursive: true });
+
   if (fs.existsSync(dataFilePath)) {
     await fs.promises.rename(
       dataFilePath,
