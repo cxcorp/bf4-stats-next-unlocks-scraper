@@ -27,6 +27,12 @@ Kills needed - Weapon, Category (Current kills, needed kills)
 9 - JS2, PDWs (51/60)
 ```
 
+## Why?
+
+Because BF4's own suggestions for next unlocks seem to be suggested by % completed instead of the absolute amount of kills. This means that an unlock where you need 50 kills is suggested before an unlock where you need 1 kill.
+
+BF4DB or some other stat service used to show these stats, but not anymore.
+
 ## Usage
 
 1. Clone or download this repository
