@@ -38,7 +38,9 @@ Kills needed - Weapon, Category (Current kills, needed kills)
 5. Get your BF4 ID
     * Sign in to [Battlelog](https://battlelog.battlefield.com/bf4/) and go to your soldier's overview or stats page
     * The ID is the number in the URL bar
+      ![](https://github.com/cxcorp/bf4-stats-next-unlocks-scraper/raw/master/battlelog_uid.png)
 6. Open `src/config.js` and replace the number in there with the ID from the previous step
+    * ![](https://github.com/cxcorp/bf4-stats-next-unlocks-scraper/raw/master/tool_id_file.png)
 7. Run `npm start`
 
 ### Showing more than 10 next unlocks
