@@ -1,6 +1,6 @@
 # bf4-stats-next-unlocks-scraper
 
-A command line tool to show your next Battlefield 4 unlocks.
+A command line tool to show your next Battlefield 4 weapon attachment unlocks.
 
 ```
 > npm start
